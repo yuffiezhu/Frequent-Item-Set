@@ -34,7 +34,7 @@ public class P1 {
         Map<String, Integer> singleItemsCount = new HashMap<String, Integer>();
         int inputLine = 1;
 
-        // Reads in items set per line, split them by comma, and saves them to inputData.
+        // Reads in items set per line, split them by comma, and then saves them to inputData.
         while (input.hasNextLine()) {
             String lineInput = input.nextLine();
             if (processInput(lineInput).isEmpty()) {
